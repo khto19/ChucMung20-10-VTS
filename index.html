@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng 20/10 - Đội Võ Thị Sáu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- Welcome Screen -->
+        <section id="welcome-screen" class="screen active">
+            <div class="content-wrapper">
+                <h1 class="title">Chúc mừng 20/10</h1>
+                <p class="subtitle">Thân gửi các chị em đội Võ Thị Sáu</p>
+                <p class="description">
+                    Nhân ngày Phụ nữ Việt Nam, xin gửi những lời chúc ấm áp và chân thành nhất. Chúc các chị em luôn xinh đẹp, rạng rỡ và ngập tràn hạnh phúc.
+                </p>
+                <form id="name-form">
+                    <input type="text" id="name-input" placeholder="Nhập tên của bạn..." aria-label="Nhập tên của bạn">
+                    <button type="submit" class="btn">Nhận lời chúc</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Wishes Screen -->
+        <section id="wishes-screen" class="screen">
+            <canvas id="fireworks-canvas"></canvas>
+            <div class="content-wrapper">
+                <!-- Vị trí mới cho chữ ký -->
+                <p id="signature-line" class="signature-text"></p>
+                
+                <div id="wish-text" class="wish-letter"></div>
+
+                <div id="image-slider-container">
+                    <div class="image-slider">
+                        <img src="anh1.jpg" alt="Ảnh kỷ niệm 1" class="slide">
+                        <img src="anh2.jpg" alt="Ảnh kỷ niệm 2" class="slide">
+                        <img src="anh3.jpg" alt="Ảnh kỷ niệm 3" class="slide">
+                    </div>
+                    <button class="slider-btn prev">&lt;</button>
+                    <button class="slider-btn next">&gt;</button>
+                </div>
+
+                <div class="button-group">
+                    <button id="new-wish-btn" class="btn">Thư chúc khác</button>
+                    <button id="back-btn" class="btn btn-secondary">Nhập tên khác</button>
+                </div>
+            </div>
+            
+            <div class="controls-corner">
+                <div class="music-player-container">
+                    <div id="music-player">
+                        <div id="music-disc-container">
+                            <img src="https://placehold.co/100x100/333/FFF?text=VTS" id="music-disc" alt="VTS disc">
+                        </div>
+                        <div class="music-controls-stack">
+                             <button id="music-toggle" aria-label="Tắt/Bật nhạc">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                    <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+                                    <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+                                </svg>
+                            </button>
+                            <div id="song-list">
+                                <button class="song-item active-song" data-song="nhacnen.mp3">Pháo Hoa</button>
+                                <button class="song-item" data-song="nhacnen2.mp3">Người gieo mầm xanh</button>
+                                <button class="song-item" data-song="nhacnen3.mp3">Phép màu</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Hướng dẫn phát nhạc -->
+                    <div id="music-tooltip" class="tooltip">
+                        Bấm vào đây để phát nhạc, có thể chọn bài khác ở dưới nha. Ở lại trang nghe nhạc nha các bông hồng xinh đẹp!
+                    </div>
+                </div>
+                <button id="fireworks-toggle" aria-label="Tắt/Bật pháo hoa">Tắt pháo hoa</button>
+            </div>
+             <div class="coder-credit">Code by KhanhToan</div>
+        </section>
+    </main>
+
+    <!-- Decorations (un-edited) -->
+    <div id="flower-container"></div>
+    <div class="rose-decor top-left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="rose-svg"><path d="M50,10 C20,20 20,60 50,90 C80,60 80,20 50,10 Z M50,20 C30,30 30,55 50,75 C70,55 70,30 50,20 Z" fill="currentColor"/></svg>
+    </div>
+    <div class="rose-decor bottom-right">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="rose-svg"><path d="M50,10 C20,20 20,60 50,90 C80,60 80,20 50,10 Z M50,20 C30,30 30,55 50,75 C70,55 70,30 50,20 Z" fill="currentColor"/></svg>
+    </div>
+</body>
+</html>
+
