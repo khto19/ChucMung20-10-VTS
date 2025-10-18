@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 "Chúc mừng ngày Phụ nữ Việt Nam! Chúc bạn không chỉ hôm nay mà 364 ngày còn lại trong năm đều luôn vui vẻ, hạnh phúc và được yêu thương. Hãy luôn là chính mình, tỏa sáng theo cách riêng và đừng quên rằng bạn luôn có một người bạn ở đây ủng hộ hết mình.",
 "Nhân ngày 20/10, chúc bạn luôn có thật nhiều sức khỏe để thực hiện mọi ước mơ và hoài bão của mình. Mong bạn luôn tìm thấy niềm vui trong công việc, sự bình yên trong tâm hồn và sự ấm áp từ những người xung quanh. Hãy luôn là người phụ nữ hạnh phúc nhất nhé.",
 "Hôm nay là ngày của bạn, hãy cho phép mình được nghỉ ngơi và tận hưởng những điều tuyệt vời nhất. Chúc bạn một ngày 20/10 thật vui, nhận được những món quà bất ngờ và những lời chúc ngọt ngào. Chúc bạn luôn xinh đẹp, may mắn và thành công trong mọi lĩnh vực cuộc sống.",
-"Gửi đến cô gái hay cười của tôi, chúc bạn một ngày 20/10 thật nhiều niềm vui và hạnh phúc. Mong rằng nụ cười của bạn sẽ không bao giờ tắt và bạn sẽ luôn lan tỏa được nguồn năng lượng tích cực này đến với mọi người. Hãy luôn yêu đời và sống hết mình nhé!",
+"Gửi đến cô gái hay cười của chúng ta, chúc bạn một ngày 20/10 thật nhiều niềm vui và hạnh phúc. Mong rằng nụ cười của bạn sẽ không bao giờ tắt và bạn sẽ luôn lan tỏa được nguồn năng lượng tích cực này đến với mọi người. Hãy luôn yêu đời và sống hết mình nhé!",
 "Chúc bạn một ngày 20/10 thật lãng mạn và đáng nhớ. Mong rằng bạn sẽ có những khoảnh khắc tuyệt vời bên cạnh người mình yêu thương. Hãy luôn là người phụ nữ tự tin, độc lập và quyến rũ, khiến cho bất kỳ ai cũng phải ngưỡng mộ và trân trọng vẻ đẹp của bạn.",
 "Nhân ngày tôn vinh phái đẹp, chúc bạn luôn giữ được tâm hồn trẻ trung, một trái tim nồng ấm và một tinh thần lạc quan. Cuộc sống có thể có nhiều thử thách, nhưng hãy luôn mạnh mẽ và vững bước tiến về phía trước. Bạn sẽ luôn tìm thấy thành công và hạnh phúc đang chờ đợi.",
 "Chúc mừng 20/10! Chúc cho mọi gánh nặng trên vai bạn đều trở nên nhẹ nhàng hơn, mọi nỗi buồn đều tan biến và chỉ còn lại niềm vui, hạnh phúc. Bạn là một người phụ nữ tuyệt vời và xứng đáng có được một cuộc sống an yên, đủ đầy và trọn vẹn nhất.",
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showWishesScreen(name) {
-        signatureLine.textContent = 'From Khánh Toàn with luv <3'; // Set signature text
+        signatureLine.textContent = 'From Khánh Toàn with love <3'; // Set signature text
         displayRandomWish(name);
         showScreen(wishesScreen);
         fireworksEnabled = true;
@@ -261,4 +261,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initFlowers();
     window.addEventListener('resize', () => { setupCanvas(); initFlowers(); });
 });
+
 
