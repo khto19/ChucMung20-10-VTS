@@ -39,21 +39,42 @@ document.addEventListener('DOMContentLoaded', () => {
     backgroundMusic.loop = true;
 
     const longWishes = [
-        "Nhân ngày 20/10, mình muốn gửi đến bạn những lời chúc chân thành nhất. Chúc bạn luôn là bông hoa xinh đẹp, rạng rỡ và toả ngát hương thơm. Mong bạn mỗi ngày đều là một ngày vui, trọn vẹn và ý nghĩa, luôn được yêu thương và trân trọng.",
-        "Chúc bạn một ngày 20/10 thật đặc biệt! Cảm ơn bạn vì đã luôn là nguồn năng lượng tích cực, lan toả nụ cười và sự ấm áp đến mọi người. Hãy luôn tự tin, yêu đời và vững bước trên con đường mình đã chọn nhé.",
-        "Hôm nay là một ngày để tôn vinh bạn. Chúc bạn có thật nhiều quà, thật nhiều hoa và những lời chúc ngọt ngào. Nhưng hơn hết, mong bạn luôn tìm thấy niềm vui trong những điều bình dị, có sức khoẻ dồi dào và bình an trong tâm hồn.",
-        "Gửi đến bạn một giỏ hoa yêu thương và những lời chúc tốt đẹp nhất. Mong rằng mọi khó khăn sẽ lùi xa, nhường chỗ cho may mắn và thành công. Hãy luôn là chính mình, một phiên bản tuyệt vời và không thể thay thế.",
-        "Nhân ngày Phụ nữ Việt Nam, chúc bạn luôn giữ được ngọn lửa nhiệt huyết trong tim. Dù ở vai trò nào, bạn cũng thật tuyệt vời. Chúc cho mọi dự định của bạn đều thành hiện thực và cuộc sống luôn mỉm cười với bạn.",
-        "Chúc bạn có một ngày 20/10 ngập tràn hạnh phúc bên gia đình và những người thân yêu. Bạn xứng đáng nhận được tất cả những điều tốt đẹp nhất trên đời. Cảm ơn bạn vì đã là một phần không thể thiếu của đội Võ Thị Sáu.",
-        "Mong rằng ngày hôm nay sẽ mang đến cho bạn nhiều bất ngờ thú vị. Hãy tạm gác lại mọi lo toan, bộn bề để tận hưởng trọn vẹn ngày của riêng mình. Chúc bạn luôn xinh đẹp, trẻ trung và yêu đời.",
-        "Nhân ngày 20/10, xin gửi đến bạn lời cảm ơn chân thành vì những đóng góp và nỗ lực không ngừng nghỉ. Bạn là một người đồng đội tuyệt vời. Chúc bạn luôn khoẻ mạnh, hạnh phúc và thành công hơn nữa trong tương lai.",
-        "Chúc bạn một ngày lễ thật vui và ý nghĩa. Hãy luôn tự hào về bản thân và những gì bạn đã làm được. Bạn là nguồn cảm hứng cho rất nhiều người. Mong bạn sẽ luôn toả sáng theo cách riêng của mình.",
-        "Ngày 20/10 là để nhắc nhớ rằng bạn quan trọng và đặc biệt biết bao. Chúc bạn luôn được bao bọc bởi tình yêu thương, nhận được sự quan tâm và thấu hiểu. Hãy luôn mỉm cười thật tươi nhé!",
-        "Chúc bạn có một ngày thật thư giãn và nuông chiều bản thân. Bạn đã làm việc rất chăm chỉ rồi. Mong rằng bạn sẽ có những giây phút bình yên, nạp lại năng lượng để tiếp tục chinh phục những thử thách mới.",
-        "Gửi ngàn lời chúc tốt đẹp đến bạn trong ngày 20/10. Chúc bạn luôn xinh đẹp như những đóa hoa, mạnh mẽ như những viên kim cương và luôn được sống trong hạnh phúc, đủ đầy.",
-        "Cảm ơn bạn vì đã luôn là một người chị, người em, người bạn đáng tin cậy. Sự hiện diện của bạn làm cho tập thể trở nên gắn kết hơn. Chúc bạn một ngày 20/10 thật nhiều niềm vui và kỷ niệm đáng nhớ.",
-        "Hôm nay, hãy để cho bản thân được toả sáng rực rỡ nhất. Chúc bạn luôn tự tin vào giá trị của mình, dám ước mơ và dám thực hiện. Thế giới sẽ thật tuyệt vời khi có bạn.",
-        "Chúc bạn có một ngày 20/10 thật ngọt ngào như những viên kẹo, thơm ngát như những đóa hoa và ấm áp như vòng tay của những người thương yêu. Hãy luôn hạnh phúc nhé!",
+         "Nhân ngày Phụ nữ Việt Nam 20/10, chúc bạn một ngày ngập tràn niềm vui và những bất ngờ ngọt ngào nhất. Mong bạn sẽ luôn xinh đẹp, rạng rỡ và giữ mãi nụ cười tỏa nắng trên môi. Hãy luôn tự tin và yêu thương bản thân mình thật nhiều, bạn nhé, vì bạn xứng đáng với mọi điều tốt đẹp.",
+"Gửi đến bạn lời chúc 20/10 chân thành và ấm áp nhất. Chúc bạn luôn mạnh khỏe, bình an và hạnh phúc bên gia đình và những người thân yêu. Mong rằng mọi dự định trong tương lai của bạn đều sẽ thành công rực rỡ và cuộc sống luôn mỉm cười với bạn trên mọi chặng đường.",
+"Chúc mừng ngày 20/10! Chúc cho người con gái tuyệt vời mà mình biết sẽ có một ngày thật ý nghĩa, nhận được nhiều hoa và những lời yêu thương. Hãy luôn là một cô gái kiên cường, bản lĩnh và không ngừng theo đuổi đam mê. Bạn chính là nguồn cảm hứng cho rất nhiều người đấy.",
+"Nhân ngày đặc biệt này, mình muốn gửi đến bạn lời cảm ơn vì đã luôn là một người bạn tuyệt vời. Chúc bạn một ngày 20/10 thật nhiều tiếng cười, hạnh phúc và trọn vẹn. Mong rằng bạn sẽ luôn xinh đẹp, thông minh và gặt hái được nhiều thành công hơn nữa trong sự nghiệp.",
+"Chúc bạn một ngày 20/10 thật đặc biệt, một ngày mà bạn được yêu thương và chiều chuộng hết mực. Hãy tạm gác lại mọi lo toan, bộn bề của cuộc sống để tận hưởng trọn vẹn ngày của riêng mình. Chúc bạn luôn trẻ trung, yêu đời và tràn đầy năng lượng tích cực mỗi ngày.",
+"Gửi đến bạn ngàn đóa hoa hồng và những lời chúc tốt đẹp nhất nhân ngày 20/10. Mong bạn mãi giữ được nét duyên dáng, dịu dàng và một tâm hồn thật đẹp. Chúc cho con đường bạn đi sẽ luôn trải đầy hoa hồng và gặt hái được thật nhiều quả ngọt, xứng đáng với nỗ lực của bạn.",
+"Chúc mừng ngày Phụ nữ Việt Nam! Chúc bạn không chỉ hôm nay mà 364 ngày còn lại trong năm đều luôn vui vẻ, hạnh phúc và được yêu thương. Hãy luôn là chính mình, tỏa sáng theo cách riêng và đừng quên rằng bạn luôn có một người bạn ở đây ủng hộ hết mình.",
+"Nhân ngày 20/10, chúc bạn luôn có thật nhiều sức khỏe để thực hiện mọi ước mơ và hoài bão của mình. Mong bạn luôn tìm thấy niềm vui trong công việc, sự bình yên trong tâm hồn và sự ấm áp từ những người xung quanh. Hãy luôn là người phụ nữ hạnh phúc nhất nhé.",
+"Hôm nay là ngày của bạn, hãy cho phép mình được nghỉ ngơi và tận hưởng những điều tuyệt vời nhất. Chúc bạn một ngày 20/10 thật vui, nhận được những món quà bất ngờ và những lời chúc ngọt ngào. Chúc bạn luôn xinh đẹp, may mắn và thành công trong mọi lĩnh vực cuộc sống.",
+"Gửi đến cô gái hay cười của chúng ta, chúc bạn một ngày 20/10 thật nhiều niềm vui và hạnh phúc. Mong rằng nụ cười của bạn sẽ không bao giờ tắt và bạn sẽ luôn lan tỏa được nguồn năng lượng tích cực này đến với mọi người. Hãy luôn yêu đời và sống hết mình nhé!",
+"Chúc bạn một ngày 20/10 thật lãng mạn và đáng nhớ. Mong rằng bạn sẽ có những khoảnh khắc tuyệt vời bên cạnh người mình yêu thương. Hãy luôn là người phụ nữ tự tin, độc lập và quyến rũ, khiến cho bất kỳ ai cũng phải ngưỡng mộ và trân trọng vẻ đẹp của bạn.",
+"Nhân ngày tôn vinh phái đẹp, chúc bạn luôn giữ được tâm hồn trẻ trung, một trái tim nồng ấm và một tinh thần lạc quan. Cuộc sống có thể có nhiều thử thách, nhưng hãy luôn mạnh mẽ và vững bước tiến về phía trước. Bạn sẽ luôn tìm thấy thành công và hạnh phúc đang chờ đợi.",
+"Chúc mừng 20/10! Chúc cho mọi gánh nặng trên vai bạn đều trở nên nhẹ nhàng hơn, mọi nỗi buồn đều tan biến và chỉ còn lại niềm vui, hạnh phúc. Bạn là một người phụ nữ tuyệt vời và xứng đáng có được một cuộc sống an yên, đủ đầy và trọn vẹn nhất.",
+"Gửi bạn lời chúc 20/10 từ tận đáy lòng. Chúc bạn luôn xinh đẹp trong mắt mọi người, không chỉ bởi vẻ ngoài mà còn bởi trí tuệ và lòng nhân ái. Mong bạn sẽ luôn là phiên bản tốt nhất của chính mình và đạt được mọi mục tiêu mà bạn đã đề ra.",
+"Hôm nay, hãy để thế giới chiều chuộng bạn. Chúc bạn một ngày 20/10 thật thư thái, được làm những điều mình thích và ở bên những người mình yêu. Chúc bạn luôn có một bờ vai vững chắc để tựa vào, một tâm hồn an nhiên và một cuộc sống viên mãn như ý.",
+"Chúc mừng ngày Phụ nữ Việt Nam! Chúc bạn luôn có một sức khỏe dẻo dai, một tinh thần minh mẫn và một vẻ đẹp ngày càng mặn mà, đằm thắm theo thời gian. Hãy luôn tự hào vì bạn là một người phụ nữ tuyệt vời, một món quà quý giá của cuộc sống này.",
+"Nhân ngày 20/10, mong rằng mọi điều may mắn và tốt đẹp nhất sẽ đến với bạn. Chúc bạn thành công trong sự nghiệp, hạnh phúc trong tình yêu và luôn giữ được ngọn lửa đam mê trong cuộc sống. Hãy luôn tỏa sáng và truyền cảm hứng cho những người xung quanh, bạn nhé.",
+"Chúc bạn một ngày 20/10 không chỉ có hoa và quà, mà còn có thật nhiều sự quan tâm chân thành và những cái ôm ấm áp. Bạn xứng đáng được nhận tất cả những điều đó. Hãy luôn là cô gái hạnh phúc, tự do và làm chủ cuộc đời mình một cách trọn vẹn.",
+"Gửi đến người con gái kiên cường mà tôi ngưỡng mộ, chúc bạn một ngày 20/10 thật ý nghĩa. Dù cuộc sống có thế nào, hãy luôn giữ vững niềm tin và bước tiếp. Phía trước luôn là bầu trời rực rỡ dành cho những người không bao giờ bỏ cuộc. Chúc bạn luôn thành công.",
+"Chúc mừng 20/10! Chúc bạn có một ngày thật 'chill', không phải lo lắng về công việc hay bất cứ điều gì. Hãy dành thời gian chăm sóc bản thân, đọc một cuốn sách hay hoặc xem một bộ phim yêu thích. Bạn xứng đáng có những giây phút bình yên và thư giãn như vậy.",
+"Nhân ngày của phái đẹp, chúc bạn luôn giữ được vẻ đẹp tự nhiên, sự thông minh sắc sảo và một trái tim giàu lòng trắc ẩn. Bạn là sự kết hợp hoàn hảo giữa vẻ đẹp và trí tuệ. Mong bạn sẽ luôn tự tin và khẳng định giá trị của mình trong mọi hoàn cảnh.",
+"Chúc bạn một ngày 20/10 thật nhiều màu sắc và đầy ắp kỷ niệm đẹp. Hãy cùng bạn bè và người thân tạo nên những khoảnh khắc đáng nhớ. Mong rằng cuộc sống của bạn sẽ luôn là một bức tranh tươi sáng, rực rỡ và tràn ngập những điều thú vị đang chờ khám phá.",
+"Gửi đến bạn lời chúc 20/10 dịu dàng như một bản nhạc du dương. Chúc bạn luôn tìm thấy sự bình yên trong tâm hồn, niềm vui trong những điều nhỏ bé và hạnh phúc trong từng khoảnh khắc. Hãy sống chậm lại một chút để cảm nhận trọn vẹn vẻ đẹp của cuộc sống này nhé.",
+"Chúc mừng ngày Phụ nữ Việt Nam! Chúc bạn luôn là ngôi sao sáng nhất trong lĩnh vực của mình, luôn được đồng nghiệp tôn trọng và cấp trên tin tưởng. Sự nghiệp của bạn sẽ ngày càng thăng tiến và bạn sẽ đạt được những đỉnh cao mới, xứng đáng với tài năng và nỗ lực.",
+"Nhân ngày 20/10, chúc cho mọi ước mơ của bạn sớm trở thành hiện thực. Đừng ngần ngại ước mơ và đừng bao giờ từ bỏ. Hãy luôn giữ vững niềm tin vào bản thân và khả năng của mình. Cả thế giới sẽ ủng hộ một cô gái dũng cảm và đầy hoài bão như bạn.",
+"Chúc bạn một ngày 20/10 thật phong cách và sành điệu. Hãy khoác lên mình bộ trang phục đẹp nhất, trang điểm thật xinh và tự tin bước ra ngoài. Bạn là một biểu tượng của vẻ đẹp và sự tự tin. Hãy để cả thế giới thấy bạn rạng rỡ và tuyệt vời như thế nào.",
+"Gửi đến bạn lời chúc sức khỏe và bình an trong ngày 20/10. Đây là tài sản quý giá nhất. Có sức khỏe, bạn sẽ có thể làm mọi điều mình muốn. Hãy luôn chăm sóc tốt cho bản thân cả về thể chất lẫn tinh thần, để mỗi ngày đều là một ngày tràn đầy năng lượng.",
+"Chúc mừng 20/10! Mong rằng bạn sẽ luôn được bao bọc bởi tình yêu thương chân thành từ gia đình, bạn bè và 'người ấy'. Tình yêu sẽ là nguồn sức mạnh to lớn giúp bạn vượt qua mọi khó khăn và cảm thấy cuộc sống này thật ý nghĩa và ấm áp biết bao.",
+"Nhân ngày đặc biệt này, chúc bạn có những chuyến đi thú vị, khám phá những vùng đất mới và gặp gỡ những con người mới. Hãy để tâm hồn mình được tự do phiêu lưu và làm giàu thêm vốn sống. Thế giới rộng lớn và có rất nhiều điều tuyệt vời đang chờ bạn phía trước.",
+"Chúc bạn một ngày 20/10 thật ngọt ngào, như những viên kẹo socola và ấm áp như một tách trà nóng. Hãy tận hưởng những niềm vui giản dị và để cho tâm hồn mình được thư giãn hoàn toàn. Bạn xứng đáng có một ngày thật bình yên và hạnh phúc bên những điều thân thuộc.",
+"Gửi đến người phụ nữ thông minh và sắc sảo, chúc bạn một ngày 20/10 thật ý nghĩa. Mong rằng trí tuệ của bạn sẽ luôn tỏa sáng, giúp bạn đưa ra những quyết định đúng đắn và đạt được thành công vang dội. Hãy tiếp tục học hỏi và phát triển bản thân không ngừng nhé.",
+"Chúc mừng ngày 20/10! Chúc bạn luôn giữ được sự lạc quan và tinh thần 'thép'. Cuộc sống đôi khi không như ý, nhưng với nụ cười và sự mạnh mẽ của bạn, mọi khó khăn rồi cũng sẽ qua. Hãy tin rằng sau cơn mưa, cầu vồng sẽ lại xuất hiện rực rỡ.",
+"Nhân ngày của bạn, chúc bạn luôn tìm thấy niềm đam mê và nhiệt huyết trong mọi việc mình làm. Khi làm việc bằng cả trái tim, bạn sẽ không chỉ tạo ra kết quả xuất sắc mà còn cảm thấy cuộc sống thật sự ý nghĩa. Hãy theo đuổi điều khiến trái tim bạn rung động.",
+"Gửi bạn lời chúc 20/10 thật nhiều may mắn. Mong rằng Thần May Mắn sẽ luôn mỉm cười với bạn, giúp bạn thuận lợi trong công việc, suôn sẻ trong các mối quan hệ và luôn gặp được những người tốt. Mọi điều tốt đẹp nhất sẽ đến với một người xứng đáng như bạn.",
+"Chúc bạn một ngày 20/10 thật trọn vẹn, một ngày để bạn nhìn lại và tự hào về những gì mình đã làm được. Bạn đã rất nỗ lực và mạnh mẽ. Hãy tiếp tục bước đi trên con đường của riêng mình, luôn xinh đẹp, tự chủ và hạnh phúc. Bạn là độc nhất và tuyệt vời nhất!",
+
     ];
 
     // --- Event Listeners ---
@@ -243,4 +264,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initFlowers();
     window.addEventListener('resize', () => { setupCanvas(); initFlowers(); });
 });
+
 
