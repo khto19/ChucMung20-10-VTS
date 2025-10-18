@@ -212,18 +212,6 @@ main {
 #fireworks-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 10; pointer-events: none; }
 .controls-corner { position: absolute; bottom: 1rem; left: 1.5rem; z-index: 30; display: flex; gap: 0.5rem; align-items: flex-end; }
 
-#fireworks-toggle {
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #eee;
-    padding: 0.5rem 0.8rem;
-    border-radius: 8px;
-    cursor: pointer;
-    color: #555;
-    font-size: 0.8rem;
-    height: fit-content; /* Align with music player */
-}
-#fireworks-toggle.active { background-color: var(--accent-color); color: var(--primary-color); }
-
 /* --- Image Slider --- */
 #image-slider-container {
     position: relative;
